@@ -1,7 +1,7 @@
 body {
     background-color: rgb(125, 125, 125);
-    width: 100%;
-    height: 100vh;
+    width: 95%;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ body {
 
 .key-big {
     color: rgba(256, 256, 256, 0.5);
-    width: 76%;
+    width: 51%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +81,9 @@ body {
 
 .multiply {
     transform: rotate(45deg)
+}
+
+.final, .cancel {
+    background-color: rgba(242, 100, 30, 0.8);
+    border-color: rgba(256, 256, 256, 0.6)
 }
